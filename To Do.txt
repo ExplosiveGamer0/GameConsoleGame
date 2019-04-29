@@ -2,6 +2,9 @@ Things we need to add to the game:
 
 More Spells
 Items
+	Weapons
+	Armor
+	Potions
 Zone Map
 Monsters
 Bosses
