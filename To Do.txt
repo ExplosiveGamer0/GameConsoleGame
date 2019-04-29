@@ -1,17 +1,15 @@
 Things we need to add to the game:
 
-
-
-
-
-
-
-
+More Spells
+Items
+Zone Map
+Monsters
+Bosses
+NPCs(?)
+Shop
 
 
 
 
 Ideas we have for the game:
-
-
 
