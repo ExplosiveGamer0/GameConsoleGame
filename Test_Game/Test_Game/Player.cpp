@@ -1,9 +1,8 @@
 #include "Player.h"
 
-
-
-Player::Player()
+Player::Player(string name): PlayerName(name)
 {
+	gold = 200;
 }
 
 

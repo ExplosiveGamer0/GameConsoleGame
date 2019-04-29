@@ -5,10 +5,13 @@
 
 class Player : public Entity
 {
+	const string PlayerName;
+	int gold;
 
 public:
 
-	Player();
+	Player() = delete;
+	Player(string name);
 	virtual ~Player();
 };
 
