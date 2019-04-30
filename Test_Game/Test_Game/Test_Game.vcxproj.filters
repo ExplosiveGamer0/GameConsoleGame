@@ -1,147 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Header Files\Spells">
-      <UniqueIdentifier>{bd243fcd-1f28-4afc-9af7-e02c5f9badf1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Spells">
-      <UniqueIdentifier>{a59a608f-23fb-4865-bbea-edb042d34457}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Spells\SpellRoles">
-      <UniqueIdentifier>{7033953e-1d52-47d4-a8a1-56416088ef4d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Spells\SpellTypes">
-      <UniqueIdentifier>{2ec96586-9133-40c0-8080-a1c3eed2ec4c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Spells\SpellRoles">
-      <UniqueIdentifier>{c673994c-2e6e-45db-8c2a-0209ec68b475}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Spells\SpellTypes">
-      <UniqueIdentifier>{af0f31e5-3e14-4af0-9c39-fffc4d608217}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Spells\Spell.cpp" />
+    <ClCompile Include="Spells\SpellInfo.cpp" />
+    <ClCompile Include="Spells\SpellRole.cpp" />
+    <ClCompile Include="Spells\SpellRoles\DamageSpell.cpp" />
+    <ClCompile Include="Spells\SpellRoles\HealingSpell.cpp" />
+    <ClCompile Include="Spells\SpellType.cpp" />
+    <ClCompile Include="Spells\SpellTypes\ChaosSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\FireSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\IceSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\LightSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp" />
+    <ClCompile Include="Items\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Interface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="includes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\Spell.h">
-      <Filter>Header Files\Spells</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellInfo.h">
-      <Filter>Header Files\Spells</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellRole.h">
-      <Filter>Header Files\Spells</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellType.h">
-      <Filter>Header Files\Spells</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellTypes\ChaosSpell.h">
-      <Filter>Header Files\Spells\SpellTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellTypes\FireSpell.h">
-      <Filter>Header Files\Spells\SpellTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellTypes\IceSpell.h">
-      <Filter>Header Files\Spells\SpellTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellTypes\LightSpell.h">
-      <Filter>Header Files\Spells\SpellTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellTypes\ThunderSpell.h">
-      <Filter>Header Files\Spells\SpellTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellRoles\DamageSpell.h">
-      <Filter>Header Files\Spells\SpellRoles</Filter>
-    </ClInclude>
-    <ClInclude Include="Spells\SpellRoles\HealingSpell.h">
-      <Filter>Header Files\Spells\SpellRoles</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Interface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\Spell.cpp">
-      <Filter>Source Files\Spells</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellInfo.cpp">
-      <Filter>Source Files\Spells</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellRole.cpp">
-      <Filter>Source Files\Spells</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellType.cpp">
-      <Filter>Source Files\Spells</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellTypes\ChaosSpell.cpp">
-      <Filter>Source Files\Spells\SpellTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellTypes\FireSpell.cpp">
-      <Filter>Source Files\Spells\SpellTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellTypes\IceSpell.cpp">
-      <Filter>Source Files\Spells\SpellTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellTypes\LightSpell.cpp">
-      <Filter>Source Files\Spells\SpellTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp">
-      <Filter>Source Files\Spells\SpellTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellRoles\DamageSpell.cpp">
-      <Filter>Source Files\Spells\SpellRoles</Filter>
-    </ClCompile>
-    <ClCompile Include="Spells\SpellRoles\HealingSpell.cpp">
-      <Filter>Source Files\Spells\SpellRoles</Filter>
-    </ClCompile>
-    <ClCompile Include="Item.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Items\Weapon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Spells\ActualSpells\spell_includes.h" />
+    <ClInclude Include="Spells\Spell.h" />
+    <ClInclude Include="Spells\SpellInfo.h" />
+    <ClInclude Include="Spells\SpellRole.h" />
+    <ClInclude Include="Spells\SpellRoles\DamageSpell.h" />
+    <ClInclude Include="Spells\SpellRoles\HealingSpell.h" />
+    <ClInclude Include="Spells\SpellType.h" />
+    <ClInclude Include="Spells\SpellTypes\ChaosSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\FireSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\IceSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\LightSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\ThunderSpell.h" />
+    <ClInclude Include="Items\Weapon.h" />
   </ItemGroup>
 </Project>

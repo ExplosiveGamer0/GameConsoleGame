@@ -15,7 +15,7 @@ void Interface::run()
 
 void Interface::drawWelcomeScreen()
 {
-	cout << "Welcome to my quick RPG" << endl;
+	cout << "Iron Man dies" << endl;
 }
 
 void Interface::drawMainMenu()
@@ -30,6 +30,7 @@ void Interface::ShowCredits()
 	this->clear();
 
 	cout << "Lead Programmer: Gothic Dread" << endl;
+	cout << "Worst Programmer: PyroManiacsGaming" << endl;
 	_getch();
 
 	this->clear();
