@@ -120,6 +120,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="Interface.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Spells\Spell.h" />
     <ClInclude Include="Spells\SpellInfo.h" />
@@ -132,12 +133,14 @@
     <ClInclude Include="Spells\SpellTypes\IceSpell.h" />
     <ClInclude Include="Spells\SpellTypes\LightSpell.h" />
     <ClInclude Include="Spells\SpellTypes\ThunderSpell.h" />
+    <ClInclude Include="Items\Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Spells\Spell.cpp" />
@@ -151,6 +154,7 @@
     <ClCompile Include="Spells\SpellTypes\IceSpell.cpp" />
     <ClCompile Include="Spells\SpellTypes\LightSpell.cpp" />
     <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp" />
+    <ClCompile Include="Items\Weapon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
