@@ -121,6 +121,7 @@
     <ClInclude Include="includes.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Spells\ActualSpells\spell_includes.h" />
     <ClInclude Include="Spells\Spell.h" />
     <ClInclude Include="Spells\SpellInfo.h" />
     <ClInclude Include="Spells\SpellRole.h" />
