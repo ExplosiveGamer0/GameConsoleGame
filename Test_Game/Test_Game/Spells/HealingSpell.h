@@ -1,10 +1,10 @@
 #pragma once
 #include "SpellRole.h"
-class DamageSpell :
+class HealingSpell :
 	public SpellRole
 {
 public:
-	DamageSpell();
-	virtual ~DamageSpell();
+	HealingSpell();
+	virtual ~HealingSpell();
 };
 

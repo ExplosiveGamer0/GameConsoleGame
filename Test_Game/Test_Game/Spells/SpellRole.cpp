@@ -1,6 +1,9 @@
-#pragma once
-
 #include "SpellRole.h"
+
+SpellRole::SpellRole()
+{
+}
+
 
 SpellRole::~SpellRole()
 {

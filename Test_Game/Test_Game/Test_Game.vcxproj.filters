@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Spells">
+      <UniqueIdentifier>{bd243fcd-1f28-4afc-9af7-e02c5f9badf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spells">
+      <UniqueIdentifier>{a59a608f-23fb-4865-bbea-edb042d34457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spells\SpellRoles">
+      <UniqueIdentifier>{7033953e-1d52-47d4-a8a1-56416088ef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spells\SpellTypes">
+      <UniqueIdentifier>{2ec96586-9133-40c0-8080-a1c3eed2ec4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spells\SpellRoles">
+      <UniqueIdentifier>{c673994c-2e6e-45db-8c2a-0209ec68b475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spells\SpellTypes">
+      <UniqueIdentifier>{af0f31e5-3e14-4af0-9c39-fffc4d608217}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -33,14 +51,38 @@
     <ClInclude Include="Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Spell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Spells\Spell.h">
+      <Filter>Header Files\Spells</Filter>
     </ClInclude>
-    <ClInclude Include="spells_include.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Spells\SpellInfo.h">
+      <Filter>Header Files\Spells</Filter>
     </ClInclude>
-    <ClInclude Include="DamageSpell.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Spells\SpellRole.h">
+      <Filter>Header Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\SpellType.h">
+      <Filter>Header Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\FireSpell.h">
+      <Filter>Header Files\Spells\SpellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\ChaosSpell.h">
+      <Filter>Header Files\Spells\SpellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\IceSpell.h">
+      <Filter>Header Files\Spells\SpellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\ThunderSpell.h">
+      <Filter>Header Files\Spells\SpellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\LightSpell.h">
+      <Filter>Header Files\Spells\SpellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\HealingSpell.h">
+      <Filter>Header Files\Spells\SpellRoles</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells\DamageSpell.h">
+      <Filter>Header Files\Spells\SpellRoles</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -62,11 +104,38 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spell.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Spells\Spell.cpp">
+      <Filter>Source Files\Spells</Filter>
     </ClCompile>
-    <ClCompile Include="DamageSpell.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Spells\SpellInfo.cpp">
+      <Filter>Source Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\SpellRole.cpp">
+      <Filter>Source Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\SpellType.cpp">
+      <Filter>Source Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\FireSpell.cpp">
+      <Filter>Source Files\Spells\SpellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\ChaosSpell.cpp">
+      <Filter>Source Files\Spells\SpellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\IceSpell.cpp">
+      <Filter>Source Files\Spells\SpellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\ThunderSpell.cpp">
+      <Filter>Source Files\Spells\SpellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\LightSpell.cpp">
+      <Filter>Source Files\Spells\SpellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\HealingSpell.cpp">
+      <Filter>Source Files\Spells\SpellRoles</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells\DamageSpell.cpp">
+      <Filter>Source Files\Spells\SpellRoles</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

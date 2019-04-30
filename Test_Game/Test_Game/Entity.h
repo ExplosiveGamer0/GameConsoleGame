@@ -2,7 +2,6 @@
 #define ENTITY_H
 
 #include "includes.h"
-#include "spells_include.h"
 
 class Entity
 {
@@ -16,8 +15,6 @@ class Entity
 	double CritChance;
 	int MeleeDamage;
 	int SpellDamageBonus;
-
-	vector<Spell> spells;
 
 public:
 
