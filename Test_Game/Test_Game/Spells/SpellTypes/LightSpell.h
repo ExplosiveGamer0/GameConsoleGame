@@ -7,4 +7,3 @@ public:
 	LightSpell();
 	virtual ~LightSpell();
 };
-

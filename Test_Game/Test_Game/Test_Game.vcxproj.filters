@@ -84,12 +84,6 @@
     <ClInclude Include="Spells\SpellRoles\HealingSpell.h">
       <Filter>Header Files\Spells\SpellRoles</Filter>
     </ClInclude>
-    <ClInclude Include="Item.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Items\Weapon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">

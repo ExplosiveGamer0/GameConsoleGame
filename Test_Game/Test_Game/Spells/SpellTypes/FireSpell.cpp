@@ -1,10 +1,5 @@
 #include "FireSpell.h"
 
-FireSpell::FireSpell()
-{
-}
+FireSpell::FireSpell(): SpellType(false, true, false, false, false) {}
 
-
-FireSpell::~FireSpell()
-{
-}
+FireSpell::~FireSpell() {}

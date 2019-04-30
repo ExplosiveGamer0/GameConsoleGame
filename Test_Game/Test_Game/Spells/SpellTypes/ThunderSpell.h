@@ -7,4 +7,3 @@ public:
 	ThunderSpell();
 	virtual ~ThunderSpell();
 };
-

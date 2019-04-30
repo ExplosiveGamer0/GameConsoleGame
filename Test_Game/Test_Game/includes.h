@@ -9,6 +9,7 @@
 #include <random>
 #include <conio.h>
 #include <Windows.h>
+#include <typeinfo>
 
 using namespace std;
 

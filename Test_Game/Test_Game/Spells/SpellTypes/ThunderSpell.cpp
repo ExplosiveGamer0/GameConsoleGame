@@ -1,10 +1,5 @@
 #include "ThunderSpell.h"
 
-ThunderSpell::ThunderSpell()
-{
-}
+ThunderSpell::ThunderSpell(): SpellType(false, false, false, false, true) {}
 
-
-ThunderSpell::~ThunderSpell()
-{
-}
+ThunderSpell::~ThunderSpell() {}

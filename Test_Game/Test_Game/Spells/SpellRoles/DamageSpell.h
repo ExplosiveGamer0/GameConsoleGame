@@ -4,6 +4,8 @@ class DamageSpell: virtual public SpellRole
 {
 
 public:
-	DamageSpell();
+	DamageSpell() = delete;
+	DamageSpell(int damage);
+
 	virtual ~DamageSpell();
 };

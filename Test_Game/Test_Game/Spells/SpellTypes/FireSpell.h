@@ -3,10 +3,8 @@
 
 class FireSpell: virtual public SpellType
 {
-
 public:
 
 	FireSpell();
 	virtual ~FireSpell();
 };
-

@@ -3,6 +3,7 @@
 class HealingSpell: virtual public SpellRole
 {
 public:
-	HealingSpell();
+	HealingSpell() = delete;
+	HealingSpell(int healing);
 	virtual ~HealingSpell();
 };
