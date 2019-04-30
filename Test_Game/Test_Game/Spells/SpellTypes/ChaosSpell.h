@@ -3,8 +3,6 @@
 
 class ChaosSpell: virtual public SpellType
 {
-
-
 public:
 
 	ChaosSpell();

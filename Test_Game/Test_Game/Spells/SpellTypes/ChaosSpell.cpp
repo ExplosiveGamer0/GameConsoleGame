@@ -1,9 +1,5 @@
 #include "ChaosSpell.h"
 
-ChaosSpell::ChaosSpell()
-{
-}
+ChaosSpell::ChaosSpell():SpellType(true, false, false, false, false) {}
 
-ChaosSpell::~ChaosSpell()
-{
-}
+ChaosSpell::~ChaosSpell() {}

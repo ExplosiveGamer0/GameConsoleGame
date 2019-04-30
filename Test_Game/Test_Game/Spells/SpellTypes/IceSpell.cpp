@@ -1,10 +1,5 @@
 #include "IceSpell.h"
 
-IceSpell::IceSpell()
-{
-}
+IceSpell::IceSpell(): SpellType(false, false, true, false, false) {}
 
-
-IceSpell::~IceSpell()
-{
-}
+IceSpell::~IceSpell() {}
