@@ -134,3 +134,16 @@ that means DamageSpell, that's why it's constructor will hold more parameters.
 
 Learn from: https://www.geeksforgeeks.org/multiple-inheritance-in-c/
 */
+
+class DamageSpell : virtual public Spell
+{
+	const string name;
+
+	const int damage;
+
+};
+
+class HealingSpell : virtual public Spell
+{
+
+};
