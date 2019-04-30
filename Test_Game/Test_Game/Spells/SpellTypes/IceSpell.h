@@ -1,5 +1,5 @@
 #pragma once
-#include "SpellType.h"
+#include "../SpellType.h"
 
 class IceSpell: virtual public SpellType
 {

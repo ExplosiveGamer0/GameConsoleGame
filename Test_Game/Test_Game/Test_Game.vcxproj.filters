@@ -63,25 +63,25 @@
     <ClInclude Include="Spells\SpellType.h">
       <Filter>Header Files\Spells</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\FireSpell.h">
+    <ClInclude Include="Spells\SpellTypes\ChaosSpell.h">
       <Filter>Header Files\Spells\SpellTypes</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\ChaosSpell.h">
+    <ClInclude Include="Spells\SpellTypes\FireSpell.h">
       <Filter>Header Files\Spells\SpellTypes</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\IceSpell.h">
+    <ClInclude Include="Spells\SpellTypes\IceSpell.h">
       <Filter>Header Files\Spells\SpellTypes</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\ThunderSpell.h">
+    <ClInclude Include="Spells\SpellTypes\LightSpell.h">
       <Filter>Header Files\Spells\SpellTypes</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\LightSpell.h">
+    <ClInclude Include="Spells\SpellTypes\ThunderSpell.h">
       <Filter>Header Files\Spells\SpellTypes</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\HealingSpell.h">
+    <ClInclude Include="Spells\SpellRoles\DamageSpell.h">
       <Filter>Header Files\Spells\SpellRoles</Filter>
     </ClInclude>
-    <ClInclude Include="Spells\DamageSpell.h">
+    <ClInclude Include="Spells\SpellRoles\HealingSpell.h">
       <Filter>Header Files\Spells\SpellRoles</Filter>
     </ClInclude>
   </ItemGroup>
@@ -116,25 +116,25 @@
     <ClCompile Include="Spells\SpellType.cpp">
       <Filter>Source Files\Spells</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\FireSpell.cpp">
+    <ClCompile Include="Spells\SpellTypes\ChaosSpell.cpp">
       <Filter>Source Files\Spells\SpellTypes</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\ChaosSpell.cpp">
+    <ClCompile Include="Spells\SpellTypes\FireSpell.cpp">
       <Filter>Source Files\Spells\SpellTypes</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\IceSpell.cpp">
+    <ClCompile Include="Spells\SpellTypes\IceSpell.cpp">
       <Filter>Source Files\Spells\SpellTypes</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\ThunderSpell.cpp">
+    <ClCompile Include="Spells\SpellTypes\LightSpell.cpp">
       <Filter>Source Files\Spells\SpellTypes</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\LightSpell.cpp">
+    <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp">
       <Filter>Source Files\Spells\SpellTypes</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\HealingSpell.cpp">
+    <ClCompile Include="Spells\SpellRoles\DamageSpell.cpp">
       <Filter>Source Files\Spells\SpellRoles</Filter>
     </ClCompile>
-    <ClCompile Include="Spells\DamageSpell.cpp">
+    <ClCompile Include="Spells\SpellRoles\HealingSpell.cpp">
       <Filter>Source Files\Spells\SpellRoles</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,7 +4,6 @@ HealingSpell::HealingSpell()
 {
 }
 
-
 HealingSpell::~HealingSpell()
 {
 }

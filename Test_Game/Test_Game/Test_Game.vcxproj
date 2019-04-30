@@ -121,17 +121,17 @@
     <ClInclude Include="includes.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Spells\ChaosSpell.h" />
-    <ClInclude Include="Spells\DamageSpell.h" />
-    <ClInclude Include="Spells\FireSpell.h" />
-    <ClInclude Include="Spells\HealingSpell.h" />
-    <ClInclude Include="Spells\IceSpell.h" />
-    <ClInclude Include="Spells\LightSpell.h" />
     <ClInclude Include="Spells\Spell.h" />
     <ClInclude Include="Spells\SpellInfo.h" />
     <ClInclude Include="Spells\SpellRole.h" />
+    <ClInclude Include="Spells\SpellRoles\DamageSpell.h" />
+    <ClInclude Include="Spells\SpellRoles\HealingSpell.h" />
     <ClInclude Include="Spells\SpellType.h" />
-    <ClInclude Include="Spells\ThunderSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\ChaosSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\FireSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\IceSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\LightSpell.h" />
+    <ClInclude Include="Spells\SpellTypes\ThunderSpell.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
@@ -140,17 +140,17 @@
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Spells\ChaosSpell.cpp" />
-    <ClCompile Include="Spells\DamageSpell.cpp" />
-    <ClCompile Include="Spells\FireSpell.cpp" />
-    <ClCompile Include="Spells\HealingSpell.cpp" />
-    <ClCompile Include="Spells\IceSpell.cpp" />
-    <ClCompile Include="Spells\LightSpell.cpp" />
     <ClCompile Include="Spells\Spell.cpp" />
     <ClCompile Include="Spells\SpellInfo.cpp" />
     <ClCompile Include="Spells\SpellRole.cpp" />
+    <ClCompile Include="Spells\SpellRoles\DamageSpell.cpp" />
+    <ClCompile Include="Spells\SpellRoles\HealingSpell.cpp" />
     <ClCompile Include="Spells\SpellType.cpp" />
-    <ClCompile Include="Spells\ThunderSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\ChaosSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\FireSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\IceSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\LightSpell.cpp" />
+    <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
