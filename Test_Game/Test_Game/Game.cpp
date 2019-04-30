@@ -2,7 +2,7 @@
 
 Game::Game()
 {
-	player = new Player();
+	//player = new Player();
 }
 
 Game::~Game()

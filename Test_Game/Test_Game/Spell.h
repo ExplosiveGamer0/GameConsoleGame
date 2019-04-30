@@ -17,6 +17,7 @@ class Spell
 	//The Spell's role (to damage, to heal or both)
 	const bool isDamaging;
 	const bool isHealing;
+	const bool isDot;
 
 	//The Spells nature
 	//Thunder, Fire, Ice and Poison will each have a set%
@@ -46,10 +47,16 @@ public:
 					bool at/tt/ft/it/pt/nt - Is the spell Arcane/Thunder/Fire/Ice/Poison/Nature type? (Some spells can have multiple types) (Types are useless for now; Add resistances later)
 					bool hh - Can the spell leave a HealOverTime on the target?
 	*/
-	Spell(string n, int dmg, int hv, int d, int h,
+	Spell(string name, int dmg, int hv, int d, int h,
 		bool id, bool ih,
 		bool at, bool tt, bool ft, bool it, bool pt, bool nt,
 		bool hh);
+
+	Spell(string name, int dmg, char nature);
+
+	Spell(string name, int heal);
+	
+	Spell(string name, int dmg, int d, char nature);
 
 	///////////////////////////////
 	////VALUE GETTING FUNCTIONS////
@@ -64,17 +71,18 @@ public:
 
 
 	//Stopped here to go to sleep after writting that wall of text down below
-	inline bool isDamaging() const { return this->isDamaging; }
-	inline bool isHealing() const { return this->isHealing; }
+	inline bool getIsDamaging() const { return this->isDamaging; }
+	inline bool getIsHealing() const { return this->isHealing; }
 
-	inline bool isArcane() const { return this->isArcane; }
-	inline bool isThunder() const { return this->isThunder; }
-	inline bool isFire() const { return this->isFire; }
-	inline bool isIce() const { return this->isIce; }
-	inline bool isPoison() const { return this->isPoison; }
+	inline bool getIsArcane() const { return this->isArcane; }
+	inline bool getIsThunder() const { return this->isThunder; }
+	inline bool getIsFire() const { return this->isFire; }
+	inline bool getIsIce() const { return this->isIce; }
+	inline bool getIsPoison() const { return this->isPoison; }
 
 	virtual ~Spell();
 
+	void SpellInfo();
 };
 
 #endif
@@ -134,16 +142,3 @@ that means DamageSpell, that's why it's constructor will hold more parameters.
 
 Learn from: https://www.geeksforgeeks.org/multiple-inheritance-in-c/
 */
-
-class DamageSpell : virtual public Spell
-{
-	const string name;
-
-	const int damage;
-
-};
-
-class HealingSpell : virtual public Spell
-{
-
-};

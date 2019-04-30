@@ -3,11 +3,21 @@
 
 int main(int argc, char** argv)
 {
-	Interface *interface = new Interface();
+	/**
+	Interface *face = new Interface();
 
-	interface->run();
+	face->run();
 
-	delete interface;
+	delete face;
 
 	return 0;
+	**/ 
+
+	Spell GenericDamageSpell("Fireball", 75, 64, 'f');
+
+	GenericDamageSpell.SpellInfo();
+	system("pause");
+
+	return 0;
+
 }
