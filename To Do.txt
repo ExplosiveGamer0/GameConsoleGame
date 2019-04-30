@@ -11,7 +11,8 @@ Bosses
 NPCs(?)
 Shop
 
-
+Multiple Children Classes of spells (DamageSpell, HealingSpell, DotSpell, HotSpell, DamageDotSpell, etc)
+	Read Spell.h at the bottom to understand where I'm going with this
 
 
 Ideas we have for the game:
