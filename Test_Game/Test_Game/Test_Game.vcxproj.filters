@@ -18,7 +18,9 @@
     <ClCompile Include="Spells\SpellTypes\IceSpell.cpp" />
     <ClCompile Include="Spells\SpellTypes\LightSpell.cpp" />
     <ClCompile Include="Spells\SpellTypes\ThunderSpell.cpp" />
-    <ClCompile Include="Items\Weapon.cpp" />
+    <ClCompile Include="Items\Armor\Armor.cpp" />
+    <ClCompile Include="Items\Weapons\Weapon.cpp" />
+    <ClCompile Include="Items\Item.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
@@ -39,6 +41,8 @@
     <ClInclude Include="Spells\SpellTypes\IceSpell.h" />
     <ClInclude Include="Spells\SpellTypes\LightSpell.h" />
     <ClInclude Include="Spells\SpellTypes\ThunderSpell.h" />
-    <ClInclude Include="Items\Weapon.h" />
+    <ClInclude Include="Items\Armor\Armor.h" />
+    <ClInclude Include="Items\Weapons\Weapon.h" />
+    <ClInclude Include="Items\Item.h" />
   </ItemGroup>
 </Project>
