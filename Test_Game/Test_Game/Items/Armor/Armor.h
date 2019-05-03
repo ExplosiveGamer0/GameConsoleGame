@@ -4,6 +4,7 @@
 
 class Armor : public Item
 {
+	/**
 	//Name and stuff
 	const string name;
 	const string description;
@@ -34,14 +35,11 @@ class Armor : public Item
 	inline const int getLuck() const { return this->luck; }
 	inline const int getHealthBuff() const { return this->healthBuff; }
 	inline const int getStaminaBuff() const { return this->staminaBuff; }
+	**/
 
 public:
 
 	Armor();
 
-	Armor(string name, int buyValue, int sellValue, int defence, int accuracy, int damageBuff, int luck, int healthBuff, int staminaBuff);
-
-	~Armor();
-
+	virtual ~Armor();
 };
-

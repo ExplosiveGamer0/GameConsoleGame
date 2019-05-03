@@ -5,34 +5,42 @@
 class Item
 {
 	//Name
-	const string name;
-	const string description;
+	string name;
+	string description;
 
 	//Sets up the buy and sell value
-	const int buyValue;
-	const int sellValue;
+	int buyValue = 0;
+	int sellValue = 0;
 
-	/**
+	
 	//Sets up the damage
-	const int damageMin;
-	const int damageMax;
-	**/
+	int damageMin = 0;
+	int damageMax = 0;
+
+	//Armor
+	int defence = 0;
+	int luck = 0;
+	int accuracy = 0;
+	int healthBuff = 0;
 
 	//Getters and Setters
-	inline const string getName() const { return this->name; }
-	inline const string getDescription() const { return this->description; }
-	inline const int getBuyValue() const { return this->buyValue; }
-	inline const int getSellValue() const { return this->sellValue; }
-	/**
-	inline const int getDamageMin() const { return this->damageMin; }
-	inline const int getDamageMax() const { return this->damageMax; }
-
-	**/
-	Item(string name, string description, int buyValue, int sellValue);
+	inline string getDescription() const { return this->description; }
+	inline int getBuyValue() const { return this->buyValue; }
+	inline int getSellValue() const { return this->sellValue; }
+	inline int getDefence() const { return this->defence; }
+	inline int getLuck() const { return this->luck; }
+	inline int getAccuracy() const { return this->accuracy; }
+	inline int getHealthBuff() const { return this->healthBuff; }
+	inline int getDamageMin() const { return this->damageMin; }
+	inline int getDamageMax() const { return this->damageMax; }
 
 public:
 
 	Item();
+
+	inline void setName(string n) { name = n; }
+
+	inline string getName() const { return this->name; }
 
 	virtual ~Item();
 
