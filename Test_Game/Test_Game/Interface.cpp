@@ -15,7 +15,7 @@ void Interface::run()
 
 void Interface::drawWelcomeScreen()
 {
-	cout << "Iron Man dies" << endl;
+	cout << "Renegade" << endl;
 }
 
 void Interface::drawMainMenu()

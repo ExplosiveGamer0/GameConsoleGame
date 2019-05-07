@@ -120,6 +120,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="Interface.h" />
+    <ClInclude Include="Items\Armor\IronHelmet.h" />
     <ClInclude Include="Items\Item.h" />
     <ClInclude Include="Items\Armor\Armor.h" />
     <ClInclude Include="Player.h" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Items\Armor\IronHelmet.cpp" />
     <ClCompile Include="Items\Item.cpp" />
     <ClCompile Include="Items\Armor\Armor.cpp" />
     <ClCompile Include="main.cpp" />

@@ -21,6 +21,7 @@
     <ClCompile Include="Items\Armor\Armor.cpp" />
     <ClCompile Include="Items\Weapons\Weapon.cpp" />
     <ClCompile Include="Items\Item.cpp" />
+    <ClCompile Include="Items\Armor\IronHelmet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
@@ -44,5 +45,6 @@
     <ClInclude Include="Items\Armor\Armor.h" />
     <ClInclude Include="Items\Weapons\Weapon.h" />
     <ClInclude Include="Items\Item.h" />
+    <ClInclude Include="Items\Armor\IronHelmet.h" />
   </ItemGroup>
 </Project>

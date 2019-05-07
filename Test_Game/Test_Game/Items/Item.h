@@ -2,28 +2,15 @@
 
 #include"../includes.h"
 
-class Item
+struct Item
 {
-	//Name
-	string name;
-	string description;
-
 	//Sets up the buy and sell value
 	int buyValue = 0;
 	int sellValue = 0;
 
-	
-	//Sets up the damage
-	int damageMin = 0;
-	int damageMax = 0;
-
-	//Armor
-	int defence = 0;
-	int luck = 0;
-	int accuracy = 0;
-	int healthBuff = 0;
-
-	//Getters and Setters
+	//Getters
+	/**
+	inline string getName() const { return this->name; }
 	inline string getDescription() const { return this->description; }
 	inline int getBuyValue() const { return this->buyValue; }
 	inline int getSellValue() const { return this->sellValue; }
@@ -33,14 +20,15 @@ class Item
 	inline int getHealthBuff() const { return this->healthBuff; }
 	inline int getDamageMin() const { return this->damageMin; }
 	inline int getDamageMax() const { return this->damageMax; }
-
-public:
+	**/
 
 	Item();
 
+	//Setter
+	/**
 	inline void setName(string n) { name = n; }
-
-	inline string getName() const { return this->name; }
+	inline void setBuyValue(int buyVal) { buyValue = buyVal; }
+	**/
 
 	virtual ~Item();
 

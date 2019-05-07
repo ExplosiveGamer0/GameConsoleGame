@@ -4,42 +4,33 @@
 
 class Armor : public Item
 {
-	/**
-	//Name and stuff
+	//Names
 	const string name;
-	const string description;
 
-	//Buy and sell value
-	const int buyValue;
-	const int sellValue;
-
-	//Defence and stats
+	//Stats
 	const int defence;
 	const int accuracy;
 	const int damageBuff;
-	// This will be a percentage buff depending on the weapon or spell used
-	// So if you use this on a chaos spell it could have a damage buff of 15% and then a sword could have a damage buff of 5%
-	const int luck; // Allows the player to have a higher percentage to get drops
-	const int healthBuff; // Buffs health
-	const int staminaBuff; // Buffs stamina
-
-						   /////////////////////////
-						   // GETTERS AND SETTERS //
-						   /////////////////////////
+	const int durabilityValue;
+	const int luck;
+	const int healthBuff;
+	const int staminaBuff;
+	
+	/////////////////////////
+	// GETTERS AND SETTERS //
+	/////////////////////////
 	inline const string getName() const { return this->name; }
-	inline const int getBuyValue() const { return this->buyValue; }
-	inline const int getSellValue() const { return this->sellValue; }
 	inline const int getDefence() const { return this->defence; }
 	inline const int getAccuracy() const { return this->accuracy; }
 	inline const int getDamageBuff() const { return this->damageBuff; }
+	inline const int getDurabilityValue() const { return this->durabilityValue; }
 	inline const int getLuck() const { return this->luck; }
 	inline const int getHealthBuff() const { return this->healthBuff; }
 	inline const int getStaminaBuff() const { return this->staminaBuff; }
-	**/
 
 public:
 
-	Armor();
+	Armor(string name, int defence, int accuracy, int damageBuff, int durabilityValue, int luck, int healthBuff, int staminaBuff);
 
 	virtual ~Armor();
 };
